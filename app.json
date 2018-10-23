@@ -7,11 +7,13 @@
   "env": {
       "PAYSTACK_SECRET_KEY": {
         "description": "Your secret key is at https://dashboard.paystack.co/#/settings/developer (it will start with sk_)",
-        "required": true
+        "required": true,
+        "value": "sk_test_47b1c9a04ecff78f52d44201d99d587427d175f3"
     },
     "SAMPLE_EMAIL": {
         "description": "A sample email with which to initialize all dummy transactions (must be a valid email)",
-        "required": true
+        "required": true,
+        "value": "williamazeh@gmail.com"
     },
     "TEST_AMOUNT": {
         "description": "An amount (in naira) with which to initialize all dummy transactions, defaults to 25naira. Will be ignored if less than 25."
